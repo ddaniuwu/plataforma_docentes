@@ -1,0 +1,143 @@
+*{
+    margin: 0px;
+    background-color: hsla(123, 81%, 19%, 0.836);
+}
+.container {
+    margin: 5rem;
+    background-color: white;
+}
+form {
+    border-radius:50px;
+    border:2px solid black;
+    margin: 5rem 5rem 3rem;
+    padding: 5rem;
+    background-color: white;
+}
+h1{
+    background-color: white;
+}
+label{
+    background-color: white;
+}
+button{
+    margin:1rem;
+}
+
+.header{
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+
+.wrapper {
+    text-align: center;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    margin-bottom: 5rem;
+    margin: 2rem;
+  }
+  .one {
+      background-color: white;
+    font-size: 50px;
+    grid-column: 1 / 4;
+    grid-row: 1;
+  }
+
+  .two{
+      grid-column: 1/1;
+      grid-row: 2;
+      background-color: transparent;
+  }
+
+  .three{
+    grid-column: 2/2;
+    grid-row: 2;
+    background-color: transparent;
+}
+
+   .four{
+    grid-column: 3/3;
+    grid-row: 2;
+    background-color: transparent;
+}
+.five{
+    grid-column: 1/1;
+    grid-row: 3;
+    background-color: transparent;
+}
+.six{
+    grid-column: 2/2;
+    grid-row: 3;
+    background-color: transparent;
+}
+.seven{
+    grid-column: 3/3;
+    grid-row: 3;
+    background-color: transparent;
+}
+.eight{
+    grid-column: 1/1;
+    grid-row: 4;
+    background-color: transparent;
+}
+
+.nine{
+    grid-column: 2/2;
+    grid-row: 4;
+    background-color: transparent;
+}
+.ten{
+    grid-column: 3/3;
+    grid-row: 4;
+    background-color: transparent;
+}
+.eleven{
+    grid-column: 1/1;
+    grid-row: 5;
+    background-color: transparent;
+}
+.twelve{
+    grid-column: 2/2;
+    grid-row: 5;
+    background-color: transparent;
+}
+.trece{
+    grid-column: 3/3;
+    grid-row: 5;
+    background-color: transparent;
+}
+.catorce{
+    grid-column: 1/1;
+    grid-row: 6;
+    background-color: transparent;
+}
+.quince{
+    grid-column: 2/2;
+    grid-row: 6;
+    background-color: transparent;
+}
+.diesiseis{
+    grid-column: 3/3;
+    grid-row: 6;
+    background-color: transparent;
+}
+
+.diesisiete{
+    grid-column: 1/1;
+    grid-row: 7;
+    background-color: transparent;
+}
+.diesiocho{
+    grid-column: 2/2;
+    grid-row: 7;
+    background-color: transparent;
+}
+
+.diesinueve{
+    grid-column: 3/3;
+    grid-row: 7;
+    background-color: transparent;
+}

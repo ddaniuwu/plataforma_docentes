@@ -1,0 +1,63 @@
+{% extends "bootstrap/base.html" %}
+{% block title %}Login{% endblock %}
+
+{% block head %}
+{{super()}}
+<link rel="stylesheet" href="{{ url_for('.static', filename='styles.css') }}">
+{% endblock %}
+
+{% block navbar %}
+    <header>
+      <img class="header" src="{{ url_for('static', filename='header.png')}}" alt=""> 
+    </header>
+    <div class="container text-center">
+        
+      <!--<a href="{{url_for('home')}}"><button class="btn btn-success" onclick="Message()">Ingresar</button><br></a>-->
+    </div>
+    <div class="wrapper">
+        <div class="one">Carreras</div>
+
+        <div class="two">
+            <button class="btn btn-success" onclick="Message()">Ing. Administración</button>
+        </div>
+
+        <div class="three"></div>
+        <div class="four">
+                    <button class="btn btn-success" onclick="Message()">Ing. TICS</button>
+        </div>
+
+        <div class="five">
+            <button class="btn btn-success" onclick="Message()">Ing. Logistica</button>
+        </div>
+        <div class="six"></div>
+        <div class="seven">
+            <button class="btn btn-success" onclick="Message()">Ing. Sistemas Computacionales</button>
+        </div>
+
+        <div class="eight">
+            <button class="btn btn-success" onclick="Message()">Ing. Industrial</button>
+        </div>
+        <div class="nine"></div>
+        <div class="ten">
+            <button class="btn btn-success" onclick="Message()">Contador Público</button>
+        </div>
+
+        <div class="eleven">
+            <button class="btn btn-success" onclick="Message()">Ing. Mecatronica</button>
+        </div>
+        <div class="twelve"></div>
+        <div class="trece"></div>
+
+        <div class="catorce">            
+            <button class="btn btn-success" onclick="Message()">Ing. Gestión Empresarial</button>
+        </div>
+        <div class="quince"></div>
+        <div class="diesiseis"></div>
+
+        <div class="diesisiete"></div>
+        <div class="diesiocho">
+            <button class="btn btn-success" onclick="Message()">SALIR</button>
+        </div>
+        <div class="diesinueve"></div>
+    </div>
+{% endblock %}

@@ -1,0 +1,29 @@
+{% extends "bootstrap/base.html" %}
+{% block title %}Login{% endblock %}
+
+{% block head %}
+{{super()}}
+<link rel="stylesheet" href="{{ url_for('.static', filename='styles.css') }}">
+<script src="{{ url_for('.static', filename='alert.js') }}"></script>
+{% endblock %}
+
+{% block navbar %}
+    <header>
+      <img class="header" src="{{ url_for('static', filename='header.png')}}" alt=""> 
+    </header>
+    <div class="container text-center">
+      
+      <!--<img src="{{ url_for('static', filename='images/logo.jpeg')}}" alt="Platzi Logo">  -->            
+      <form>
+        
+        <h1>Ing. Sistemas Computacionales</h1>
+
+        <label for="exampleInputEmail1" class="form-label">Usuario</label>
+        <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Buscar un nombre" required>
+
+        <button class="btn btn-success">Buscar</button>
+      </form>
+
+      <!--<a href="{{url_for('home')}}"><button class="btn btn-success" onclick="Message()">Ingresar</button><br></a>-->
+    </div>
+{% endblock %}
