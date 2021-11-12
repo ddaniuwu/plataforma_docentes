@@ -1,0 +1,22 @@
+{% extends "bootstrap/base.html" %}
+{% block title %}Login{% endblock %}
+
+{% block head %}
+{{super()}}
+<link rel="stylesheet" href="{{ url_for('.static', filename='styles.css') }}">
+<script src="{{ url_for('.static', filename='alert.js') }}"></script>
+{% endblock %}
+
+{% block navbar %}
+<header>
+    <img class="header" src="{{ url_for('static', filename='header.png')}}" alt=""> 
+  </header>
+  <div class="container text-center">
+      
+    <h1>Resultado de la busqueda</h1>
+    <h2>Luis Antonio Perez Rivera</h2>
+    <img src="{{ url_for('static', filename='Constancia.png')}}" alt=""> 
+
+</div>
+
+{% endblock %}
